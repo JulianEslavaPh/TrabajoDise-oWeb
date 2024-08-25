@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Kalam:wght@300;400;700&family=Lilita+One&family=Zain:wght@200;300;400;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+.navbar{
+    background-color: #2b2d42; 
+    border-radius:20px ; 
+}
+.logo{
+    width: 20%;
+    padding: 5px;
+}
+.nav-link{
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #adb5bd;
+
+}
+.nav-link:hover{
+    color: #ffffff;
+    
+}
+.carousel-img{
+    border-radius: 10px;
+}
+.bg-1{
+    background-color: #ef233c;
+    border-radius: 10px;
+}
+.text-one{
+    margin-top: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+.bi-style{
+    color: #ffffff;
+    font-size: 60px;
+    margin-left: 50px;
+}
+
+.parrafo-uno{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.ajuste{
+    margin-top:10px;
+}
+.animation-one:hover{
+    animation: textAnimation 2s infinite;
+    display: inline-block;
+    
+}
+.center{
+    margin-left: 40px ;
+}
+.img-servicios{
+    background-image: url("../img/servicios.jpg");
+    background-size: cover;
+}
+.img-nosotros{
+    background-image: url("../img/quienesomos.jpg");
+    background-size: cover;
+}
+.index-servicios{
+    background-color: #2b2d42;
+}
+.title-servicios{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 30px;
+    font-family: "New Amsterdam", sans-serif;font-family: "New Amsterdam", sans-serif;
+    letter-spacing: 4px;
+}
+.text-servicio{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 8%;
+    letter-spacing: 2px;
+    
+}
+.text-servicio:hover{
+    animation: serviciosText 500ms ease-in-out forwards ;
+    display: inline-block;
+}
+.separador{
+    border-top: 3px solid #ffffff; 
+    width: 83%;
+    margin-left: 8%;
+}
+.title-nosotros{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #000000;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 15px;
+    font-family: "New Amsterdam", sans-serif;
+    letter-spacing: 4px;
+}
+.text-nosotros{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+}
+.footer{
+    background-color: #2B3035;
+    text-align: center;
+}
+.bi-instagram{
+    font-size: 40px;
+    color: white;
+}
+.bi-instagram:hover{
+    animation: instagram 1s ease-in-out forwards ;
+    display: inline-block;
+}
+.bi-facebook{
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+}
+.bi-facebook:hover{
+    animation: facebook 1s ease-in-out forwards ;
+    display: inline-block;
+}
+.bi-whatsapp{
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+}
+.bi-whatsapp:hover{
+    animation: whatsapp 1s ease-in-out forwards ;
+    display: inline-block;
+}
+.bi-tiktok{
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+}
+.bi-tiktok:hover{
+    animation: tiktok 1s ease-in-out forwards ;
+    display: inline-block;
+}
+.bi-google{
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+}
+.bi-google:hover{
+    animation: google 1s ease-in-out forwards ;
+    display: inline-block;
+}
+.bi-youtube{
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+}
+.bi-youtube:hover{
+    animation: youtube 1s ease-in-out forwards ;
+    display: inline-block;
+}
+.mapa{
+    width: 100%;
+    height:100% ;
+}
+.ubi{
+    background-image: url("../img/ubicacion.jpeg");
+    background-size: cover;
+}
+.form-title{
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "New Amsterdam", sans-serif;
+    letter-spacing: 5px;
+}
+label{
+    color: #ffffff;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.btn-form{
+    color: #ffffff;
+    border-color: #ffffff;
+    transition-duration: .6s;
+}
+.btn-form:hover{
+    color: #B20303;
+    background-color: #ffffff;
+    font-weight: bolder;
+    
+}
+.btn-conoce{
+    color: #ef233c;
+    border-color: #ef233c;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn-conoce:hover{
+    color: #ffffff;
+    background-color: #ef233c;
+}
+.redes{
+    color: #ffffff;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 35px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.redes:hover{
+    animation: textAnimationtwo 2s infinite;
+    display: inline-block;
+}
+.nosotros{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 52px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #ef233c;
+    font-weight:900;
+}
+.p-nosotros{
+    padding: 5%;
+    font-size: 18px;
+    color: #000000;
+}
+.mision{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 52px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #ffffff;
+    font-weight:900;
+    background-color: #2b2d42;
+    border-radius: 10px;
+}
+.card-title{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight:900;
+    color: #ff001e;
+}
+.valores-title{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 45px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight:900;
+    color: #ff001e;
+}
+.bi-tree{
+    font-size: 100px;
+    color: #136606;
+    
+}
+.bi-transparency{
+    font-size: 100px;
+    color: #0c0666;
+}
+.bi-patch-check{
+    font-size: 100px;
+    color: #db08ca;
+}
+.bi-person-gear{
+    font-size: 100px;
+    color: #660303;
+}
+.text-carousel{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.carousel-caption{
+    padding-bottom: 25%;
+}
+@media (max-width: 1130px) {
+    .center{
+        margin-left: 0px ;
+    }
+  }
+  @media(max-width:575px){
+    .bi-style{
+        margin-left: 40%;
+    }
+    .logo{
+        width: 40%;
+    }
+    .text-servicio{
+        margin-left: 0; 
+    }
+  }
+  @keyframes textAnimation {
+    0% {
+        transform: rotate(-8deg);
+    }
+    20% {
+        transform: rotate(8deg);
+    }
+    40% {
+        transform: rotate(-8deg);
+    }
+    60% {
+        transform: rotate(8deg);
+    }
+    80% {
+        transform: rotate(-8deg);
+    }
+    100% {
+        transform: rotate(5);
+    }
+ }
+ @keyframes textAnimationtwo {
+    0% {
+        transform: rotate(-2deg);
+    }
+    20% {
+        transform: rotate(2deg);
+    }
+    40% {
+        transform: rotate(-2deg);
+    }
+    60% {
+        transform: rotate(2deg);
+    }
+    80% {
+        transform: rotate(-2deg);
+    }
+    100% {
+        transform: rotate(2);
+    }
+ }
+ @keyframes serviciosText {
+    from{
+        transform: translateX(0px)
+    }
+    to{
+        transform: translateX(15px);
+        color: #ff344c;
+    }
+ }
+ @keyframes instagram {
+    
+    to{
+        color: #c78bff;
+    }
+ }
+ @keyframes facebook {
+    
+    to{
+        color: #677af8;
+    }
+ }
+ 
+ @keyframes whatsapp {
+    
+    to{
+        color: #22ff00;
+    }
+ }
+ @keyframes tiktok {
+    
+    to{
+        color: #6c6a6e;
+    }
+ }
+ @keyframes google {
+    
+    to{
+        color: #fbff00;
+    }
+ }
+ @keyframes youtube {
+    
+    to{
+        color: #ff0000;
+    }
+ }
+ 
+ 
